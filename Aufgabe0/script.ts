@@ -2,5 +2,5 @@ var person = prompt("Please enter your name");
 
 if (person != null) {
   document.getElementById("demo").innerHTML =
-  "Hello " + person + "! How are you today? :)";
+  "Hey " + person + "! How are you doing? :)";
 }
