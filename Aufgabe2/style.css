@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    margin: 0 8px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#gameboard {
+    border: thin solid black;
+    text-align: center;
+    position: relative;
+    top: -18px;
+    left: 0px;
+    height: 85%;
+}
+
+#computerCards {
+    border-radius: 10px;
+    background-color: lavender;
+    position: relative;
+    top: -0.5px;
+    left: 0px;
+    height: 30%;
+    overflow: auto;
+}
+
+#playerCards {
+    border-radius: 10px;
+    background-color:lavender;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    height: 30%;
+    text-align: left;
+    overflow: auto;
+}
+
+#middleCards {
+    background-color: lavenderblush;
+    position: relative;
+    top: 0px;
+    height: 39.2%;
+    text-align: center;
+    overflow: auto;
+}
+
+#deck {
+    width: 50px;
+    padding: 50px;
+    font-size: 50pt;
+    color: black;
+    border-radius: 10px;
+    background-color: grey;
+    position: relative;
+    top: 41.1%;
+    height: 50%;
+}
+
+#middleCards > span {
+    width: 40px;
+    margin-right: 1.7%;
+    padding: 40px;
+    font-size: 50pt;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 35%;
+    height: 50%;
+}
+
+#computerCards > span {
+    float: left;
+    width: 40px;
+    margin-right: 1.7%;
+    margin-bottom: 1%;
+    padding: 40px;
+    font-size: 50pt;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    color: whitesmoke;
+    left: 20px;
+    height: 50%;
+}
+
+#playerCards > span {
+    float: left;
+    width: 40px;
+    margin-right: 1.7%;
+    margin-bottom: 1%;
+    padding: 40px;
+    font-size: 50pt;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    color: whitesmoke;
+    left: 20px;
+    height: 50%;
+}
+
+#pass {
+    margin-top: 0.15%;
+    background-color: lavender;
+}
+
+#pass:hover {
+    background-color: lavenderblush;
+}
+
+.yellow {
+    background-color: #e6e924;
+}
+
+.green {
+    background-color: #27CD04;
+}
+
+.blue {
+    background-color: #0347FF;
+}
+
+.red {
+    background-color: #E20B46;
+}
+
