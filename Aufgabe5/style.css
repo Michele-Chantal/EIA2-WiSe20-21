@@ -1,0 +1,61 @@
+body {
+    background-color: #002800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infos, #anweisungen, #ausgabe {
+    color: lightgray;
+    font-style: italic;
+}
+
+h2 {
+    color: white;
+    margin-left: 5px;
+}
+
+#description {
+    width: 500px;
+}
+
+#button1 {
+    margin-left: 597px;
+    margin-bottom: 15px;
+}
+
+#btnTemp {
+    margin-left: 580px;
+}
+
+#btnStir {
+    margin-left: 580px;
+}
+
+#btnIngredients {
+    margin-left: 580px;
+}
+
+#infos {
+    border: thin white solid;
+    width: 650px;
+    max-width: 650px;
+    min-width: 650px;
+    background-color: #003f00;
+}
+
+#anweisungen {
+    border: thin white solid;
+    width: 650px;
+    max-width: 650px;
+    min-width: 650px;
+    background-color: #003f00;
+}
+
+#ausgabe {
+    margin-left: 700px;
+    margin-top: -1005px;
+    border: thin white solid;
+    width: 650px;
+    max-width: 650px;
+    min-width: 650px;
+    height: 700px;
+}
