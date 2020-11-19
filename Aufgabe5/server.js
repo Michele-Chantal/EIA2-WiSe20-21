@@ -25,7 +25,6 @@ var L05_Hexenkessel_Client;
             let jsonString = JSON.stringify(url.query);
             _response.write(jsonString);
         }
-        _response.write("This is my response");
         _response.end();
     }
 })(L05_Hexenkessel_Client = exports.L05_Hexenkessel_Client || (exports.L05_Hexenkessel_Client = {}));
