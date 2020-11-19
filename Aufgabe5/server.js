@@ -9,7 +9,7 @@ var L05_Hexenkessel_Client;
     console.log(server);
     let port = process.env.PORT;
     if (port == undefined)
-        port = 50001;
+        port = 5001;
     console.log("Server starting on port:" + port);
     server.listen(port);
     server.addListener("request", handleRequest);
